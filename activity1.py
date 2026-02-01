@@ -1,0 +1,13 @@
+emptupl=()
+tupl=(1,2,3,4,5)
+mixtupl=('among', 1, 'yes', 9)
+nestedtupl=((5, 3, 6, 7), ['Car', 'Bike', 'Plane', 'Boat'])
+for i in tupl:
+    print(i)
+print(emptupl)
+print(tupl)
+print(mixtupl)
+print(mixtupl[0])
+print(mixtupl[-1])
+print(mixtupl[1:3])
+print(nestedtupl)
